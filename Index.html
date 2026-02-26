@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carlos Eduardo | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Logo Carlos">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-container">
+
+      <div class="hero-text">
+        <p>👋Olá, eu me chamo </p>
+        <h1>Carlos Eduardo</h1>
+        <h2>Backend Developer</h2>
+
+        <div class="buttons">
+          <a href="#projects" class="btn-primary">Ver Projetos</a>
+          <button onclick="baixarCV()" class="btn-outline">
+            ⬇ Baixar Currículo
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="foto.jpeg" alt="Minha foto">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="about" class="section">
+    <h2>Sobre Mim</h2>
+    <p>
+      Atualmente estou cursando o 3º período de Ciência da Computação,
+      com grande interesse em desenvolvimento de sistemas, lógica de programação e tecnologia em geral.
+      Busco oportunidades de estágio que me permitam aprender na prática, contribuir com entusiasmo e crescer
+      profissionalmente na área de TI.
+    </p>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projects" class="section">
+    <h2>Projetos</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Vitalmen</h3>
+        <p>Site de autocuidado masculino, foi Implementado lógica de servidor com Python(Flask) e o banco de dados em
+          PostgreSQL.</p>
+   
+      <div class="project-links">
+          <a href="https://github.com/VitalMen-MVP/VitalMen" target="_blank" class="github-btn">
+            🔗 Ver no GitHub</a>
+        </div>
+       </div>
+      
+
+      <div class="card">
+        <h3>Comentarios</h3>
+        <p>Aplicação web com um sistema de comentarios que ficam salvos e aparecem na tela por um banco de dados local.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/errghvcxty/Comentarios" target="_blank" class="github-btn">
+            🔗 Ver no GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Dupla energia</h3>
+        <p>Jogo rpg feito com proposito de concientizar sobre a poluição no mundo, a ferramenta usada foi o gamemaker
+        </p>
+        <a href="https://github.com/icarofranklin/Game-Dupla-energia" _blank" class="github-btn">
+          🔗 Ver no GitHub</a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contact" class="section">
+    <h2>Contato</h2>
+    <p>Email: carlosedu2411@email.com </p>
+    <p>telefone:(79)99878-9116</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Carlos Eduardo. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
